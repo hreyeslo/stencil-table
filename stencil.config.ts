@@ -18,6 +18,7 @@ export const config: Config = {
     },
     {
       type: 'www',
+      baseUrl: 'stencil-table',
       serviceWorker: null, // disable service workers
     },
   ],
