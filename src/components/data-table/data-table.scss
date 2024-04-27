@@ -1,0 +1,52 @@
+@import 'tabulator-tables/src/scss/themes/bootstrap/tabulator_bootstrap5.scss';
+
+:host {
+  #table {
+    border: 1px solid $border-color;
+    margin: 100px;
+
+    &.tabulator {
+      .tabulator-header {
+        height: 46px;
+      }
+
+      .tabulator-tableholder {
+        .tabulator-row {
+          height: 45px;
+        }
+      }
+
+      .tabulator-action-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        height: 100%;
+        width: 100%;
+
+        > button {
+          width: 100%;
+          height: 100%;
+          max-width: 45px;
+          max-height: 45px;
+          border: none;
+          background: transparent;
+          cursor: pointer;
+          border-radius: 4px;
+
+          span {
+            width: 100%;
+            height: 100%;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          }
+
+          &:hover {
+            background-color: #858585;
+          }
+        }
+      }
+    }
+  }
+}
