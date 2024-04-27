@@ -37,7 +37,8 @@ jobs:
       - name: Cache
         uses: actions/cache@v4.0.2
         with:
-          key: ${{ runner.os }}-stencil-table-build
+          path: node_modules
+          key: ${{ runner.os }}-stencil-table-build-node_modules
           
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
