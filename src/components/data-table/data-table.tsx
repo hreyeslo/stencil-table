@@ -12,7 +12,7 @@ export class DataTable {
   private _tableRef: Tabulator | null = null;
   private _tableonfig: Options = {
     index: 'id',
-    layout: 'fitDataStretch',
+    layout: 'fitColumns',
     resizableColumnFit: true,
     resizableColumnGuide: true,
     renderHorizontal: 'virtual',
