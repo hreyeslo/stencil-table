@@ -39,9 +39,9 @@ const generateActionColumns = (): any => {
     resizable: false,
     frozen: true,
     // maxWidth: 100,
-    // minWidth: 100,
+    minWidth: 100,
     // width: 100,
-    widthGrow: 2,
+    // widthGrow: 2,
     formatter: cell => {
       const _cellNumber = cell.getRow().getData().index;
       const _container = document.createElement('div');
