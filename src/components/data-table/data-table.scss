@@ -19,6 +19,7 @@
       .tabulator-action-buttons {
         display: flex;
         flex-direction: row;
+        justify-content: flex-end;
         gap: 5px;
         height: 100%;
         width: 100%;
