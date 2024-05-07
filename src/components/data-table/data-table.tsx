@@ -29,7 +29,8 @@ export class DataTable {
     },
     columnDefaults: {
       headerSort: false,
-      minWidth: 50,
+      maxWidth: 300,
+      // minWidth: 200,
     },
   };
 
