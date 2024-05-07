@@ -12,10 +12,10 @@ export class DataTable {
   private _tableRef: Tabulator | null = null;
   private _tableonfig: Options = {
     index: 'id',
-    layout: 'fitDataStretch',
+    layout: 'fitDataFill',
     resizableColumnFit: true,
     resizableColumnGuide: true,
-    renderHorizontal: 'virtual',
+    //renderHorizontal: 'virtual',
     layoutColumnsOnNewData: true,
     placeholder: 'No Data Available',
     rowHeader: {
