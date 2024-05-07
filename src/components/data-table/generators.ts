@@ -23,7 +23,7 @@ export const generateData = (rowsNumber: number): any[] => {
   return new Array(rowsNumber).fill(null).map((_, index) => {
     return {
       id: faker.string.uuid(),
-      value: faker.person.fullName(),
+      value: 'pepe',
       index: index + 1,
     };
   });
